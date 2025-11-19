@@ -1,0 +1,7 @@
+{
+  "metadata":{"bundle_id":"uppsc_combined_core_v1","exam_id":"uppsc_combined","version":1,"format":"bundle-v1-json"},
+  "exam":{"exam_id":"uppsc_combined","title":"UPPSC Combined Sample","default_test_duration_mins":180},
+  "topics":[{"topic_id":"up_gk","title":"UP General Knowledge"}],
+  "questions":[{"question_id":"up_q1","topic_id":"up_gk","type":"mcq_single","question_text":"State bird of UP?","options":["Sarus Crane","Peacock","Sparrow"],"correct_json":[0],"explanation":"Sarus Crane."}],
+  "mocks":[]
+}
