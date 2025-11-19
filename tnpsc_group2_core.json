@@ -1,0 +1,7 @@
+{
+  "metadata":{"bundle_id":"tnpsc_group2_core_v1","exam_id":"tnpsc_group2","version":1,"format":"bundle-v1-json"},
+  "exam":{"exam_id":"tnpsc_group2","title":"TNPSC Group 2 Sample","default_test_duration_mins":180},
+  "topics":[{"topic_id":"tn_history","title":"Tamil Nadu History"}],
+  "questions":[{"question_id":"tn_q1","topic_id":"tn_history","type":"mcq_single","question_text":"Capital of Tamil Nadu?","options":["Chennai","Madurai","Coimbatore"],"correct_json":[0],"explanation":"Chennai is the capital."}],
+  "mocks":[]
+}
