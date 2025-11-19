@@ -1,10 +1,55 @@
 {
-  "metadata": { "bundle_id": "ssc_cgl_core_v1", "exam_id": "ssc_cgl", "version": 1, "format": "bundle-v1-json" },
-  "exam": { "exam_id": "ssc_cgl", "title": "SSC CGL Sample", "default_test_duration_mins": 120 },
-  "topics": [ { "topic_id": "quant", "title": "Quantitative Aptitude" }, { "topic_id": "reasoning", "title": "Reasoning" } ],
-  "lessons": [],
-  "questions": [
-    { "question_id": "ssc_q1", "topic_id": "quant", "type": "mcq_single", "question_text": "If x+y=10 and x-y=2, what is x?", "options": ["6","7","5"], "correct_json":[0], "explanation":"x=6" }
+  "metadata": {
+    "bundle_id": "ssc_cgl_core_v1",
+    "exam_id": "ssc_cgl",
+    "version": 1,
+    "format": "bundle-v1-json"
+  },
+  "exam": {
+    "exam_id": "ssc_cgl",
+    "title": "SSC CGL",
+    "default_test_duration_mins": 120
+  },
+  "topics": [
+    {
+      "topic_id": "t1",
+      "title": "General"
+    }
   ],
-  "mocks": [ { "mock_id": "ssc_mock_1", "exam_id": "ssc_cgl", "title":"Sample Mock", "duration_minutes":20, "question_ids":["ssc_q1"] } ]
+  "lessons": [
+    {
+      "lesson_id": "l1",
+      "topic_id": "t1",
+      "title": "Intro",
+      "content_md": "Short intro content."
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "q1",
+      "topic_id": "t1",
+      "type": "mcq_single",
+      "question_text": "Sample question for ssc_cgl?",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_json": [
+        0
+      ],
+      "explanation": "Sample explanation."
+    }
+  ],
+  "mocks": [
+    {
+      "mock_id": "mock1",
+      "exam_id": "ssc_cgl",
+      "title": "Sample Mock",
+      "duration_minutes": 30,
+      "question_ids": [
+        "q1"
+      ]
+    }
+  ]
 }

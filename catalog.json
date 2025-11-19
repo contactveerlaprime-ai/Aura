@@ -1,139 +1,1207 @@
 {
   "catalog_version": 1,
-  "updated_at": "2025-11-18T00:00:00Z",
+  "updated_at": "2025-11-19T17:31:59.311291Z",
   "global_pass_sku": "mock_exam.all_exams.1year",
   "exams": [
     {
       "exam_id": "upsc_prelims",
       "title": "UPSC Civil Services — Prelims",
       "level": "national",
-      "description": "General Studies core: syllabus, lessons, question bank, 1 free mock",
+      "description": "UPSC Civil Services — Prelims core materials (sample)",
       "bundles": [
         {
           "bundle_id": "upsc_prelims_core_v1",
           "type": "core",
           "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/upsc_prelims_core.json",
           "version": 1,
-          "size_bytes": 120000,
+          "size_bytes": 10000,
           "checksum_sha256": ""
         }
       ],
-      "tags": ["upsc","prelims","national"],
-      "last_updated": "2025-11-18T00:00:00Z"
+      "tags": [
+        "upsc"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310648Z"
     },
     {
       "exam_id": "ssc_cgl",
       "title": "SSC CGL",
       "level": "national",
-      "description": "Staff Selection Commission - Combined Graduate Level exam core materials",
+      "description": "SSC CGL core materials (sample)",
       "bundles": [
         {
           "bundle_id": "ssc_cgl_core_v1",
           "type": "core",
           "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/ssc_cgl_core.json",
           "version": 1,
-          "size_bytes": 100000,
+          "size_bytes": 10000,
           "checksum_sha256": ""
         }
       ],
-      "tags": ["ssc","cgl","national"],
-      "last_updated": "2025-11-18T00:00:00Z"
+      "tags": [
+        "ssc"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310675Z"
+    },
+    {
+      "exam_id": "ssc_chsl",
+      "title": "SSC CHSL",
+      "level": "national",
+      "description": "SSC CHSL core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "ssc_chsl_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/ssc_chsl_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "ssc"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310681Z"
     },
     {
       "exam_id": "rrb_ntpc",
       "title": "RRB NTPC",
       "level": "national",
-      "description": "Railway Recruitment Board - NTPC exam materials",
+      "description": "RRB NTPC core materials (sample)",
       "bundles": [
         {
           "bundle_id": "rrb_ntpc_core_v1",
           "type": "core",
           "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/rrb_ntpc_core.json",
           "version": 1,
-          "size_bytes": 90000,
+          "size_bytes": 10000,
           "checksum_sha256": ""
         }
       ],
-      "tags": ["rrb","railway","national"],
-      "last_updated": "2025-11-18T00:00:00Z"
+      "tags": [
+        "rrb"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310686Z"
+    },
+    {
+      "exam_id": "rrb_grp_d",
+      "title": "RRB Group D",
+      "level": "national",
+      "description": "RRB Group D core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "rrb_grp_d_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/rrb_grp_d_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "rrb"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310692Z"
     },
     {
       "exam_id": "ibps_po",
       "title": "IBPS PO",
       "level": "national",
-      "description": "Banking PO exam material - prelims & mains core",
+      "description": "IBPS PO core materials (sample)",
       "bundles": [
         {
           "bundle_id": "ibps_po_core_v1",
           "type": "core",
           "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/ibps_po_core.json",
           "version": 1,
-          "size_bytes": 110000,
+          "size_bytes": 10000,
           "checksum_sha256": ""
         }
       ],
-      "tags": ["banking","ibps","national"],
-      "last_updated": "2025-11-18T00:00:00Z"
+      "tags": [
+        "ibps"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310698Z"
     },
-
-    // Sample state-level entries (pattern for many states)
     {
-      "exam_id": "tnpsc_group2",
-      "title": "TNPSC Group 2",
-      "level": "state",
-      "state_code": "TN",
-      "description": "Tamil Nadu Public Service Commission - Group 2 core materials",
+      "exam_id": "ibps_so",
+      "title": "IBPS SO",
+      "level": "national",
+      "description": "IBPS SO core materials (sample)",
       "bundles": [
         {
-          "bundle_id": "tnpsc_group2_core_v1",
+          "bundle_id": "ibps_so_core_v1",
           "type": "core",
-          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/tnpsc_group2_core.json",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/ibps_so_core.json",
           "version": 1,
-          "size_bytes": 90000,
+          "size_bytes": 10000,
           "checksum_sha256": ""
         }
       ],
-      "tags": ["tnpsc","tamilnadu","state"],
-      "last_updated": "2025-11-18T00:00:00Z"
+      "tags": [
+        "ibps"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310707Z"
+    },
+    {
+      "exam_id": "ibps_clerk",
+      "title": "IBPS Clerk",
+      "level": "national",
+      "description": "IBPS Clerk core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "ibps_clerk_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/ibps_clerk_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "ibps"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310713Z"
+    },
+    {
+      "exam_id": "bank_sbi_po",
+      "title": "SBI PO",
+      "level": "national",
+      "description": "SBI PO core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "bank_sbi_po_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/bank_sbi_po_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "bank"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310716Z"
+    },
+    {
+      "exam_id": "bank_sbi_clerk",
+      "title": "SBI Clerk",
+      "level": "national",
+      "description": "SBI Clerk core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "bank_sbi_clerk_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/bank_sbi_clerk_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "bank"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310729Z"
+    },
+    {
+      "exam_id": "lic_aafo",
+      "title": "LIC AFO",
+      "level": "national",
+      "description": "LIC AFO core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "lic_aafo_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/lic_aafo_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "lic"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310737Z"
+    },
+    {
+      "exam_id": "defence_nda",
+      "title": "NDA",
+      "level": "national",
+      "description": "NDA core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "defence_nda_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/defence_nda_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "defence"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310740Z"
+    },
+    {
+      "exam_id": "defence_afcat",
+      "title": "AFCAT",
+      "level": "national",
+      "description": "AFCAT core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "defence_afcat_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/defence_afcat_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "defence"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310743Z"
+    },
+    {
+      "exam_id": "defence_cdse",
+      "title": "CDSE",
+      "level": "national",
+      "description": "CDSE core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "defence_cdse_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/defence_cdse_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "defence"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310746Z"
+    },
+    {
+      "exam_id": "railway_je",
+      "title": "RRB JE",
+      "level": "national",
+      "description": "RRB JE core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "railway_je_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/railway_je_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "railway"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310749Z"
+    },
+    {
+      "exam_id": "nta_ug",
+      "title": "UG Entrance (e.g., JEE/NEET placeholder)",
+      "level": "national",
+      "description": "UG Entrance (e.g., JEE/NEET placeholder) core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "nta_ug_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/nta_ug_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "nta"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310754Z"
+    },
+    {
+      "exam_id": "teaching_ctet",
+      "title": "CTET",
+      "level": "national",
+      "description": "CTET core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "teaching_ctet_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/teaching_ctet_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "teaching"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310757Z"
+    },
+    {
+      "exam_id": "police_central",
+      "title": "Central Police Exams (e.g., CAPF)",
+      "level": "national",
+      "description": "Central Police Exams (e.g., CAPF) core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "police_central_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/police_central_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "police"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310761Z"
+    },
+    {
+      "exam_id": "ssc_steno",
+      "title": "SSC Stenographer",
+      "level": "national",
+      "description": "SSC Stenographer core materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "ssc_steno_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/ssc_steno_core.json",
+          "version": 1,
+          "size_bytes": 10000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "ssc"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310764Z"
+    },
+    {
+      "exam_id": "appsc_combined",
+      "title": "Andhra Pradesh PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "AP",
+      "description": "Andhra Pradesh public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "appsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/appsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "andhra pradesh",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310960Z"
+    },
+    {
+      "exam_id": "arpsc_combined",
+      "title": "Arunachal Pradesh PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "AR",
+      "description": "Arunachal Pradesh public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "arpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/arpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "arunachal pradesh",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310967Z"
+    },
+    {
+      "exam_id": "aspsc_combined",
+      "title": "Assam PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "AS",
+      "description": "Assam public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "aspsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/aspsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "assam",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310970Z"
+    },
+    {
+      "exam_id": "brpsc_combined",
+      "title": "Bihar PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "BR",
+      "description": "Bihar public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "brpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/brpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "bihar",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310973Z"
+    },
+    {
+      "exam_id": "ctpsc_combined",
+      "title": "Chhattisgarh PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "CT",
+      "description": "Chhattisgarh public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "ctpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/ctpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "chhattisgarh",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310977Z"
+    },
+    {
+      "exam_id": "gapsc_combined",
+      "title": "Goa PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "GA",
+      "description": "Goa public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "gapsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/gapsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "goa",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310980Z"
+    },
+    {
+      "exam_id": "gjpsc_combined",
+      "title": "Gujarat PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "GJ",
+      "description": "Gujarat public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "gjpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/gjpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "gujarat",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310984Z"
+    },
+    {
+      "exam_id": "hrpsc_combined",
+      "title": "Haryana PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "HR",
+      "description": "Haryana public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "hrpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/hrpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "haryana",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310989Z"
+    },
+    {
+      "exam_id": "hppsc_combined",
+      "title": "Himachal Pradesh PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "HP",
+      "description": "Himachal Pradesh public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "hppsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/hppsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "himachal pradesh",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.310999Z"
+    },
+    {
+      "exam_id": "jkpsc_combined",
+      "title": "Jammu & Kashmir PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "JK",
+      "description": "Jammu & Kashmir public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "jkpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/jkpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "jammu & kashmir",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311009Z"
+    },
+    {
+      "exam_id": "jhpsc_combined",
+      "title": "Jharkhand PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "JH",
+      "description": "Jharkhand public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "jhpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/jhpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "jharkhand",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311014Z"
+    },
+    {
+      "exam_id": "kapsc_combined",
+      "title": "Karnataka PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "KA",
+      "description": "Karnataka public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "kapsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/kapsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "karnataka",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311019Z"
+    },
+    {
+      "exam_id": "klpsc_combined",
+      "title": "Kerala PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "KL",
+      "description": "Kerala public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "klpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/klpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "kerala",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311025Z"
+    },
+    {
+      "exam_id": "mppsc_combined",
+      "title": "Madhya Pradesh PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "MP",
+      "description": "Madhya Pradesh public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "mppsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/mppsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "madhya pradesh",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311031Z"
+    },
+    {
+      "exam_id": "mhpsc_combined",
+      "title": "Maharashtra PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "MH",
+      "description": "Maharashtra public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "mhpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/mhpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "maharashtra",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311036Z"
+    },
+    {
+      "exam_id": "mnpsc_combined",
+      "title": "Manipur PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "MN",
+      "description": "Manipur public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "mnpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/mnpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "manipur",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311040Z"
+    },
+    {
+      "exam_id": "mlpsc_combined",
+      "title": "Meghalaya PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "ML",
+      "description": "Meghalaya public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "mlpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/mlpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "meghalaya",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311043Z"
+    },
+    {
+      "exam_id": "mzpsc_combined",
+      "title": "Mizoram PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "MZ",
+      "description": "Mizoram public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "mzpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/mzpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "mizoram",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311046Z"
+    },
+    {
+      "exam_id": "nlpsc_combined",
+      "title": "Nagaland PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "NL",
+      "description": "Nagaland public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "nlpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/nlpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "nagaland",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311052Z"
+    },
+    {
+      "exam_id": "odpsc_combined",
+      "title": "Odisha PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "OD",
+      "description": "Odisha public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "odpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/odpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "odisha",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311055Z"
+    },
+    {
+      "exam_id": "pbpsc_combined",
+      "title": "Punjab PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "PB",
+      "description": "Punjab public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "pbpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/pbpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "punjab",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311059Z"
+    },
+    {
+      "exam_id": "rjpsc_combined",
+      "title": "Rajasthan PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "RJ",
+      "description": "Rajasthan public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "rjpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/rjpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "rajasthan",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311062Z"
+    },
+    {
+      "exam_id": "skpsc_combined",
+      "title": "Sikkim PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "SK",
+      "description": "Sikkim public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "skpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/skpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "sikkim",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311066Z"
+    },
+    {
+      "exam_id": "tnpsc_combined",
+      "title": "Tamil Nadu PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "TN",
+      "description": "Tamil Nadu public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "tnpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/tnpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "tamil nadu",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311069Z"
+    },
+    {
+      "exam_id": "tgpsc_combined",
+      "title": "Telangana PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "TG",
+      "description": "Telangana public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "tgpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/tgpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "telangana",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311072Z"
+    },
+    {
+      "exam_id": "trpsc_combined",
+      "title": "Tripura PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "TR",
+      "description": "Tripura public service commission combined exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "trpsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/trpsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 8000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "tripura",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311076Z"
     },
     {
       "exam_id": "uppsc_combined",
-      "title": "UPPSC Combined",
+      "title": "Uttar Pradesh PSC — Combined (sample)",
       "level": "state",
       "state_code": "UP",
-      "description": "Uttar Pradesh Public Service Commission - Combined exam materials",
+      "description": "Uttar Pradesh public service commission combined exam materials (sample)",
       "bundles": [
         {
           "bundle_id": "uppsc_combined_core_v1",
           "type": "core",
           "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/uppsc_combined_core.json",
           "version": 1,
-          "size_bytes": 90000,
+          "size_bytes": 8000,
           "checksum_sha256": ""
         }
       ],
-      "tags": ["uppsc","uttarpradesh","state"],
-      "last_updated": "2025-11-18T00:00:00Z"
+      "tags": [
+        "uttar pradesh",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311079Z"
     },
     {
-      "exam_id": "mp_peb",
-      "title": "MP PEB",
+      "exam_id": "utpsc_combined",
+      "title": "Uttarakhand PSC — Combined (sample)",
       "level": "state",
-      "state_code": "MP",
-      "description": "Madhya Pradesh Professional Examination Board - core materials",
+      "state_code": "UT",
+      "description": "Uttarakhand public service commission combined exam materials (sample)",
       "bundles": [
         {
-          "bundle_id": "mp_peb_core_v1",
+          "bundle_id": "utpsc_combined_core_v1",
           "type": "core",
-          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/mp_peb_core.json",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/utpsc_combined_core.json",
           "version": 1,
-          "size_bytes": 90000,
+          "size_bytes": 8000,
           "checksum_sha256": ""
         }
       ],
-      "tags": ["mppeb","madhyapradesh","state"],
-      "last_updated": "2025-11-18T00:00:00Z"
+      "tags": [
+        "uttarakhand",
+        "psc",
+        "state"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311082Z"
+    },
+    {
+      "exam_id": "an_psc",
+      "title": "Andaman & Nicobar PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "AN",
+      "description": "Andaman & Nicobar local recruitment exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "an_psc_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/an_psc_core.json",
+          "version": 1,
+          "size_bytes": 5000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "psc",
+        "andaman & nicobar"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311213Z"
+    },
+    {
+      "exam_id": "ch_psc",
+      "title": "Chandigarh PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "CH",
+      "description": "Chandigarh local recruitment exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "ch_psc_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/ch_psc_core.json",
+          "version": 1,
+          "size_bytes": 5000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "psc",
+        "chandigarh"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311218Z"
+    },
+    {
+      "exam_id": "dn_psc",
+      "title": "Dadra & Nagar Haveli and Daman & Diu PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "DN",
+      "description": "Dadra & Nagar Haveli and Daman & Diu local recruitment exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "dn_psc_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/dn_psc_core.json",
+          "version": 1,
+          "size_bytes": 5000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "psc",
+        "dadra & nagar haveli and daman & diu"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311221Z"
+    },
+    {
+      "exam_id": "dl_psc",
+      "title": "Delhi PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "DL",
+      "description": "Delhi local recruitment exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "dl_psc_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/dl_psc_core.json",
+          "version": 1,
+          "size_bytes": 5000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "psc",
+        "delhi"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311225Z"
+    },
+    {
+      "exam_id": "ld_psc",
+      "title": "Lakshadweep PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "LD",
+      "description": "Lakshadweep local recruitment exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "ld_psc_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/ld_psc_core.json",
+          "version": 1,
+          "size_bytes": 5000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "psc",
+        "lakshadweep"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311228Z"
+    },
+    {
+      "exam_id": "py_psc",
+      "title": "Puducherry PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "PY",
+      "description": "Puducherry local recruitment exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "py_psc_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/py_psc_core.json",
+          "version": 1,
+          "size_bytes": 5000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "psc",
+        "puducherry"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311231Z"
+    },
+    {
+      "exam_id": "la_psc",
+      "title": "Ladakh PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "LA",
+      "description": "Ladakh local recruitment exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "la_psc_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/la_psc_core.json",
+          "version": 1,
+          "size_bytes": 5000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "psc",
+        "ladakh"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311235Z"
+    },
+    {
+      "exam_id": "jkut_psc",
+      "title": "Jammu & Kashmir (UT already listed) PSC — Combined (sample)",
+      "level": "state",
+      "state_code": "JKUT",
+      "description": "Jammu & Kashmir (UT already listed) local recruitment exam materials (sample)",
+      "bundles": [
+        {
+          "bundle_id": "jkut_psc_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/jkut_psc_core.json",
+          "version": 1,
+          "size_bytes": 5000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": [
+        "psc",
+        "jammu & kashmir (ut already listed)"
+      ],
+      "last_updated": "2025-11-19T17:31:59.311240Z"
     }
-
   ]
 }

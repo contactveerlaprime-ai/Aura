@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "bundle_id": "upsc_prelims_core_v1",
-    "exam_id": "upsc_prelims",
+    "bundle_id": "skpsc_combined_core_v1",
+    "exam_id": "skpsc_combined",
     "version": 1,
     "format": "bundle-v1-json"
   },
   "exam": {
-    "exam_id": "upsc_prelims",
-    "title": "UPSC Civil Services — Prelims",
+    "exam_id": "skpsc_combined",
+    "title": "Sikkim PSC — Combined (sample)",
     "default_test_duration_mins": 120
   },
   "topics": [
@@ -29,7 +29,7 @@
       "question_id": "q1",
       "topic_id": "t1",
       "type": "mcq_single",
-      "question_text": "Sample question for upsc_prelims?",
+      "question_text": "Sample question for skpsc_combined?",
       "options": [
         "A",
         "B",
@@ -44,7 +44,7 @@
   "mocks": [
     {
       "mock_id": "mock1",
-      "exam_id": "upsc_prelims",
+      "exam_id": "skpsc_combined",
       "title": "Sample Mock",
       "duration_minutes": 30,
       "question_ids": [

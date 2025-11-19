@@ -1,9 +1,55 @@
 {
-  "metadata": { "bundle_id": "rrb_ntpc_core_v1", "exam_id": "rrb_ntpc", "version": 1, "format": "bundle-v1-json" },
-  "exam": { "exam_id": "rrb_ntpc", "title": "RRB NTPC Sample", "default_test_duration_mins": 90 },
-  "topics": [ { "topic_id": "gk", "title": "General Knowledge" } ],
-  "questions": [
-    { "question_id": "rrb_q1", "topic_id": "gk", "type":"mcq_single", "question_text":"Railway zone with headquarters in Chennai?", "options":["Southern Railway","Western Railway","Eastern Railway"], "correct_json":[0], "explanation":"Southern Railway HQ is Chennai." }
+  "metadata": {
+    "bundle_id": "rrb_ntpc_core_v1",
+    "exam_id": "rrb_ntpc",
+    "version": 1,
+    "format": "bundle-v1-json"
+  },
+  "exam": {
+    "exam_id": "rrb_ntpc",
+    "title": "RRB NTPC",
+    "default_test_duration_mins": 120
+  },
+  "topics": [
+    {
+      "topic_id": "t1",
+      "title": "General"
+    }
   ],
-  "mocks": []
+  "lessons": [
+    {
+      "lesson_id": "l1",
+      "topic_id": "t1",
+      "title": "Intro",
+      "content_md": "Short intro content."
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "q1",
+      "topic_id": "t1",
+      "type": "mcq_single",
+      "question_text": "Sample question for rrb_ntpc?",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_json": [
+        0
+      ],
+      "explanation": "Sample explanation."
+    }
+  ],
+  "mocks": [
+    {
+      "mock_id": "mock1",
+      "exam_id": "rrb_ntpc",
+      "title": "Sample Mock",
+      "duration_minutes": 30,
+      "question_ids": [
+        "q1"
+      ]
+    }
+  ]
 }
