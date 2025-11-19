@@ -1,0 +1,7 @@
+{
+  "metadata":{"bundle_id":"mp_peb_core_v1","exam_id":"mp_peb","version":1,"format":"bundle-v1-json"},
+  "exam":{"exam_id":"mp_peb","title":"MP PEB Sample","default_test_duration_mins":120},
+  "topics":[{"topic_id":"mp_gk","title":"Madhya Pradesh GK"}],
+  "questions":[{"question_id":"mp_q1","topic_id":"mp_gk","type":"mcq_single","question_text":"Capital of MP?","options":["Bhopal","Indore","Gwalior"],"correct_json":[0],"explanation":"Bhopal."}],
+  "mocks":[]
+}
