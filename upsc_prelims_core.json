@@ -1,0 +1,11 @@
+{
+  "metadata": { "bundle_id": "upsc_prelims_core_v1", "exam_id": "upsc_prelims", "version": 1, "format": "bundle-v1-json" },
+  "exam": { "exam_id": "upsc_prelims", "title": "UPSC Prelims Sample", "default_test_duration_mins": 120 },
+  "topics": [ { "topic_id": "history_modern", "title": "Modern India" }, { "topic_id": "polity", "title": "Polity" } ],
+  "lessons": [ { "lesson_id": "l1", "topic_id": "history_modern", "title": "Plassey & Buxar", "content_md": "Short note." } ],
+  "questions": [
+    { "question_id": "upsc_q1", "topic_id": "history_modern", "type": "mcq_single", "question_text": "Who led the British at Plassey?", "options": ["Robert Clive", "Mir Jafar", "Siraj ud-Daulah"], "correct_json": [0], "explanation": "Robert Clive led the British." },
+    { "question_id": "upsc_q2", "topic_id": "polity", "type": "mcq_single", "question_text": "Which document is not part of the Constitution?", "options": ["Preamble", "Schedules", "Charter of Rights"], "correct_json": [2], "explanation": "The 'Charter of Rights' is not a constitutional term in India." }
+  ],
+  "mocks": [ { "mock_id": "upsc_mock_1", "exam_id": "upsc_prelims", "title": "Sample Mock (2Q)", "duration_minutes": 30, "question_ids": ["upsc_q1","upsc_q2"] } ]
+}
