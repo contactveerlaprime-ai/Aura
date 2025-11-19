@@ -1,0 +1,139 @@
+{
+  "catalog_version": 1,
+  "updated_at": "2025-11-18T00:00:00Z",
+  "global_pass_sku": "mock_exam.all_exams.1year",
+  "exams": [
+    {
+      "exam_id": "upsc_prelims",
+      "title": "UPSC Civil Services — Prelims",
+      "level": "national",
+      "description": "General Studies core: syllabus, lessons, question bank, 1 free mock",
+      "bundles": [
+        {
+          "bundle_id": "upsc_prelims_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/upsc_prelims_core.json",
+          "version": 1,
+          "size_bytes": 120000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": ["upsc","prelims","national"],
+      "last_updated": "2025-11-18T00:00:00Z"
+    },
+    {
+      "exam_id": "ssc_cgl",
+      "title": "SSC CGL",
+      "level": "national",
+      "description": "Staff Selection Commission - Combined Graduate Level exam core materials",
+      "bundles": [
+        {
+          "bundle_id": "ssc_cgl_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/ssc_cgl_core.json",
+          "version": 1,
+          "size_bytes": 100000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": ["ssc","cgl","national"],
+      "last_updated": "2025-11-18T00:00:00Z"
+    },
+    {
+      "exam_id": "rrb_ntpc",
+      "title": "RRB NTPC",
+      "level": "national",
+      "description": "Railway Recruitment Board - NTPC exam materials",
+      "bundles": [
+        {
+          "bundle_id": "rrb_ntpc_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/rrb_ntpc_core.json",
+          "version": 1,
+          "size_bytes": 90000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": ["rrb","railway","national"],
+      "last_updated": "2025-11-18T00:00:00Z"
+    },
+    {
+      "exam_id": "ibps_po",
+      "title": "IBPS PO",
+      "level": "national",
+      "description": "Banking PO exam material - prelims & mains core",
+      "bundles": [
+        {
+          "bundle_id": "ibps_po_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/ibps_po_core.json",
+          "version": 1,
+          "size_bytes": 110000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": ["banking","ibps","national"],
+      "last_updated": "2025-11-18T00:00:00Z"
+    },
+
+    // Sample state-level entries (pattern for many states)
+    {
+      "exam_id": "tnpsc_group2",
+      "title": "TNPSC Group 2",
+      "level": "state",
+      "state_code": "TN",
+      "description": "Tamil Nadu Public Service Commission - Group 2 core materials",
+      "bundles": [
+        {
+          "bundle_id": "tnpsc_group2_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/tnpsc_group2_core.json",
+          "version": 1,
+          "size_bytes": 90000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": ["tnpsc","tamilnadu","state"],
+      "last_updated": "2025-11-18T00:00:00Z"
+    },
+    {
+      "exam_id": "uppsc_combined",
+      "title": "UPPSC Combined",
+      "level": "state",
+      "state_code": "UP",
+      "description": "Uttar Pradesh Public Service Commission - Combined exam materials",
+      "bundles": [
+        {
+          "bundle_id": "uppsc_combined_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/uppsc_combined_core.json",
+          "version": 1,
+          "size_bytes": 90000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": ["uppsc","uttarpradesh","state"],
+      "last_updated": "2025-11-18T00:00:00Z"
+    },
+    {
+      "exam_id": "mp_peb",
+      "title": "MP PEB",
+      "level": "state",
+      "state_code": "MP",
+      "description": "Madhya Pradesh Professional Examination Board - core materials",
+      "bundles": [
+        {
+          "bundle_id": "mp_peb_core_v1",
+          "type": "core",
+          "url": "https://raw.githubusercontent.com/contactveerlaprime-ai/Aura/main/mp_peb_core.json",
+          "version": 1,
+          "size_bytes": 90000,
+          "checksum_sha256": ""
+        }
+      ],
+      "tags": ["mppeb","madhyapradesh","state"],
+      "last_updated": "2025-11-18T00:00:00Z"
+    }
+
+  ]
+}
