@@ -1,0 +1,9 @@
+{
+  "metadata": { "bundle_id":"ibps_po_core_v1", "exam_id":"ibps_po", "version":1, "format":"bundle-v1-json" },
+  "exam": { "exam_id":"ibps_po", "title":"IBPS PO Sample", "default_test_duration_mins":120 },
+  "topics":[ { "topic_id":"banking_awareness","title":"Banking Awareness" } ],
+  "questions":[
+    { "question_id":"ibps_q1","topic_id":"banking_awareness","type":"mcq_single","question_text":"RBI stands for?","options":["Reserve Bank of India","Regional Bank of India","Rural Bank of India"],"correct_json":[0],"explanation":"Reserve Bank of India." }
+  ],
+  "mocks":[]
+}
